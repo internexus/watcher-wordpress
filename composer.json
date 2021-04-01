@@ -2,6 +2,6 @@
     "name": "internexus/watcher-wordpress",
     "license": "MIT",
     "require": {
-        "internexus/watcher-php": "dev-develop"
+        "internexus/watcher-php": "^0.0.1"
     }
 }

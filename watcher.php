@@ -3,8 +3,6 @@
 use Internexus\Watcher\Config;
 use Internexus\Watcher\Watcher;
 
-require 'vendor/autoload.php';
-
 class Watcher_Plugin {
 
 	protected $watcher;
@@ -14,7 +12,7 @@ class Watcher_Plugin {
 	public function __construct() {
 		$this->options = $this->get_options();
 
-		if ( ! empty( $this->options['apikey'] ) && $this->options['enabled'] ) {
+		if ( ! empty( $this->options['apikey'] ) ) {
 			$this->setup();
 		}
 	}
@@ -31,6 +29,8 @@ class Watcher_Plugin {
 
 	private function setup() {
 		$config = new Config( $this->options['apikey'] );
+		$config->setEnabled( $this->options['enabled'] );
+
 		$this->watcher = new Watcher( $config );
 
 		add_action( 'plugins_loaded', array( $this, 'start_transaction' ), 1 );

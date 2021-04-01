@@ -8,6 +8,7 @@
  * License: GPL2
  */
 
+require 'vendor/autoload.php';
+
 require 'watcher.php';
 require 'admin/admin-page.php';
-
