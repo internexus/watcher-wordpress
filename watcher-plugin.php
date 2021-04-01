@@ -8,6 +8,6 @@
  * License: GPL2
  */
 
-require 'provider.php';
+require 'watcher.php';
 require 'admin/admin-page.php';
 
