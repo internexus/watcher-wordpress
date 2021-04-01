@@ -1,0 +1,7 @@
+{
+    "name": "internexus/watcher-wordpress",
+    "license": "MIT",
+    "require": {
+        "internexus/watcher-php": "dev-develop"
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "packages": [
+        {
+            "name": "internexus/watcher-php",
+            "version": "dev-develop",
+            "version_normalized": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/internexus/watcher-php.git",
+                "reference": "fb18e18111a0e34f2b89b4ed5519f071936f11d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/internexus/watcher-php/zipball/fb18e18111a0e34f2b89b4ed5519f071936f11d4",
+                "reference": "fb18e18111a0e34f2b89b4ed5519f071936f11d4",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0|^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "10.0.x-dev"
+            },
+            "time": "2021-03-31T23:40:19+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Internexus\\Watcher\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nícolas Huber",
+                    "email": "nicolasluishuber@gmail.com"
+                }
+            ],
+            "description": "PHP code execution monitoring package",
+            "keywords": [
+                "code execution",
+                "error handler",
+                "exception",
+                "monitoring",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/internexus/watcher-php/issues",
+                "source": "https://github.com/internexus/watcher-php/tree/develop"
+            },
+            "install-path": "../internexus/watcher-php"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
