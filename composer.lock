@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "48cd010febaece17ad9459abd8f59e50",
+    "content-hash": "300e5898425a71a4b95516a3ee800810",
     "packages": [
         {
             "name": "internexus/watcher-php",
-            "version": "0.0.1",
+            "version": "0.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/internexus/watcher-php.git",
-                "reference": "369dabe1e0f402fe032dd3d49e3c1b0d75c6ee3d"
+                "reference": "aa647dda26af8ef7aacb5294410e655314e22bc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/internexus/watcher-php/zipball/369dabe1e0f402fe032dd3d49e3c1b0d75c6ee3d",
-                "reference": "369dabe1e0f402fe032dd3d49e3c1b0d75c6ee3d",
+                "url": "https://api.github.com/repos/internexus/watcher-php/zipball/aa647dda26af8ef7aacb5294410e655314e22bc1",
+                "reference": "aa647dda26af8ef7aacb5294410e655314e22bc1",
                 "shasum": ""
             },
             "require": {
@@ -52,9 +52,9 @@
             ],
             "support": {
                 "issues": "https://github.com/internexus/watcher-php/issues",
-                "source": "https://github.com/internexus/watcher-php/tree/0.0.1"
+                "source": "https://github.com/internexus/watcher-php/tree/0.0.2"
             },
-            "time": "2021-04-01T17:05:42+00:00"
+            "time": "2021-04-13T17:38:16+00:00"
         }
     ],
     "packages-dev": [],

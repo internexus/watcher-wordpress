@@ -6,19 +6,19 @@
     'aliases' => 
     array (
     ),
-    'reference' => '9b612fab47f4084a7e76fafb893733b92eab7731',
+    'reference' => '81abc67f686146996cbd70328d5acf8fcbae3a82',
     'name' => 'internexus/watcher-wordpress',
   ),
   'versions' => 
   array (
     'internexus/watcher-php' => 
     array (
-      'pretty_version' => '0.0.1',
-      'version' => '0.0.1.0',
+      'pretty_version' => '0.0.2',
+      'version' => '0.0.2.0',
       'aliases' => 
       array (
       ),
-      'reference' => '369dabe1e0f402fe032dd3d49e3c1b0d75c6ee3d',
+      'reference' => 'aa647dda26af8ef7aacb5294410e655314e22bc1',
     ),
     'internexus/watcher-wordpress' => 
     array (
@@ -27,7 +27,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '9b612fab47f4084a7e76fafb893733b92eab7731',
+      'reference' => '81abc67f686146996cbd70328d5acf8fcbae3a82',
     ),
   ),
 );
