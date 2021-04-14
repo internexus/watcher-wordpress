@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '81abc67f686146996cbd70328d5acf8fcbae3a82',
+    'reference' => 'df587a76f3f6308fcb16afea3f9944c8f3a8edb9',
     'name' => 'internexus/watcher-wordpress',
   ),
   'versions' => 
@@ -51,7 +51,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '81abc67f686146996cbd70328d5acf8fcbae3a82',
+      'reference' => 'df587a76f3f6308fcb16afea3f9944c8f3a8edb9',
     ),
   ),
 );
